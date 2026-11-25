@@ -1,0 +1,10 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // The Next.js server verifies Firebase ID tokens and applies role checks.
+    // Admin SDK access from the server bypasses these rules; browser SDK reads/writes are denied.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

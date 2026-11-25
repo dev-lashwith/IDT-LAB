@@ -1,0 +1,26 @@
+{
+  "..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_app": {
+    "id": 1966,
+    "files": [
+      "static/chunks/966.1775eb621d8d3e09.js"
+    ]
+  },
+  "..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
+    "id": 3899,
+    "files": [
+      "static/chunks/899.5ce6b3cbad015b59.js"
+    ]
+  },
+  "components\\map-view-dynamic.tsx -> @/components/map-view": {
+    "id": 5680,
+    "files": [
+      "static/css/a539d4bf3ea20de9.css",
+      "static/chunks/d0deef33.59f66eb64a859d22.js",
+      "static/chunks/680.dd2c2f49036d52e4.js"
+    ]
+  },
+  "components\\road-user-dashboard.tsx -> @firebase/messaging": {
+    "id": 2918,
+    "files": []
+  }
+}

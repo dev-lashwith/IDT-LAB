@@ -1,0 +1,20 @@
+[Unit]
+Description=Clearway Next.js application
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/clearway
+Environment=NODE_ENV=production
+EnvironmentFile=/etc/clearway/clearway.env
+ExecStart=/usr/bin/npm run start -- --hostname 127.0.0.1 --port 3000
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=30
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

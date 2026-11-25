@@ -1,0 +1,17 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/_global-error/page": "/_global-error",
+  "/api/session/route": "/api/session",
+  "/api/app-config/route": "/api/app-config",
+  "/api/dashboard/route": "/api/dashboard",
+  "/api/emergencies/route": "/api/emergencies",
+  "/api/emergencies/stop/route": "/api/emergencies/stop",
+  "/api/location/route": "/api/location",
+  "/api/notifications/token/route": "/api/notifications/token",
+  "/firebase-messaging-sw.js/route": "/firebase-messaging-sw.js",
+  "/admin/page": "/admin",
+  "/ambulance/page": "/ambulance",
+  "/login/page": "/login",
+  "/page": "/",
+  "/road-user/page": "/road-user"
+}

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "functions": {
+    "/api/dashboard": {},
+    "/api/emergencies": {},
+    "/api/emergencies/stop": {},
+    "/api/location": {},
+    "/api/notifications/token": {}
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/api/session/route": "app/api/session/route.js",
+  "/api/app-config/route": "app/api/app-config/route.js",
+  "/api/dashboard/route": "app/api/dashboard/route.js",
+  "/api/emergencies/route": "app/api/emergencies/route.js",
+  "/api/emergencies/stop/route": "app/api/emergencies/stop/route.js",
+  "/api/location/route": "app/api/location/route.js",
+  "/api/notifications/token/route": "app/api/notifications/token/route.js",
+  "/firebase-messaging-sw.js/route": "app/firebase-messaging-sw.js/route.js",
+  "/admin/page": "app/admin/page.js",
+  "/ambulance/page": "app/ambulance/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/road-user/page": "app/road-user/page.js"
+}
